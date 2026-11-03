@@ -1,0 +1,3 @@
+-keep class com.wireguard.** { *; }
+-keepclassmembers class * { native <methods>; }
+-dontwarn com.wireguard.**
